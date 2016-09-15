@@ -23,7 +23,7 @@ if ($sex == "Male"){
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Who I am</title>
+    <title>Who You Are</title>
     <link href="css.css" rel="stylesheet" type="text/css">
     <style>
         img{
