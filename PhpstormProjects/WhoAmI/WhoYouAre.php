@@ -9,7 +9,6 @@ $sex = $_POST['Sex'];
 $personPic = "<img src = '";
 $personSheet = "<header><h2>$name from $state</h2></header>";
 
-
 if ($sex == "Male"){
     $personPic = $personPic . "Ma.jpg'>";
     echo '<body style="background-color: blue">';
@@ -17,9 +16,7 @@ if ($sex == "Male"){
     $personPic = $personPic . "Fa.jpg'>";
     echo '<body style="background-color: pink">';
 }
-
 ?>
-
 <html>
 <head>
     <meta charset="utf-8">
@@ -41,9 +38,7 @@ if ($sex == "Male"){
         function clean($string){
             $NewString = str_replace('’', '\'',$string);
             return $NewString;
-
         }
-
         $postPage = explode("\n", file_get_contents('PostPage.txt'));
         $year = 2016;
         print ($personPic);
@@ -63,9 +58,5 @@ if ($sex == "Male"){
         ?>
     </div>
 </div>
-
-
-
 </body>
 </html>
-
