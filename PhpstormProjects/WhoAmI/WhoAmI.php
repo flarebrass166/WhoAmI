@@ -2,14 +2,13 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Who Am I<</title>
+    <title>Who Am I</title>
     <link href="css.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
 <div id="form_container">
     <form method = "post" action = "WhoYouAre.php">
-        <h3> Who Am I<</h3>
+        <h3>Who Am I</h3>
         <ul class="appnitro">
             <li class="first">Name:</li>
             <li class="text"><input type="text" name="Name"></li>
