@@ -7,7 +7,7 @@
 </head>
 <body>
 <div id="form_container">
-    <form method = "post" action = "WhoYouAre.php">
+    <form method = "post" action = "whoYouAre.php">
         <h3>Who Am I</h3>
         <ul class="appnitro">
             <li class="first">Name:</li>
